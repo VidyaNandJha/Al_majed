@@ -24,6 +24,7 @@
 .btn-bg{
 	width:120px;
 	color:#fff !important;
+	background-color:#debc76 !important;
 }
 .bottle{
 	position:fixed;
@@ -35,26 +36,24 @@
 .register{
 	margin-top:50px;
 }
-.register p{
+.register p , .login-form p{
 	font-size:20px;
 }
 @media only screen and (max-width: 767px) {
 	.bottle{
-	position:relative;
-	bottom:0px;
+		bottom:10px;
 	text-align: center;
+	display:none;
 }
 .login-form .form-control{
 	width:90%;
 	margin:0px auto;
 }
-.logo{
-	position: absolute !important;
-    top: -810px;
 
-}
 .logo img{
 	width:60px !important;
 }
-
+.register p , .login-form p{
+	text-align:center;
+}
 }
