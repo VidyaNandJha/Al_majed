@@ -1,0 +1,60 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing:border-box;
+	font-family: 'Roboto';
+}
+
+.bg-color {
+    background:#828282;
+    height:100%;
+}
+.login{
+	background:#e1e1e1;
+	height:500px;
+	margin-top:70px;
+
+}
+.login-form{
+  margin-top:120px;
+}
+.login-form h2{
+	color:#c4030d;
+}
+.btn-bg{
+	width:120px;
+	color:#fff !important;
+}
+.bottle{
+	position:fixed;
+	bottom:0px;
+}
+.account-color{
+	color:#545454;
+}
+.register{
+	margin-top:50px;
+}
+.register p{
+	font-size:20px;
+}
+@media only screen and (max-width: 767px) {
+	.bottle{
+	position:relative;
+	bottom:0px;
+	text-align: center;
+}
+.login-form .form-control{
+	width:90%;
+	margin:0px auto;
+}
+.logo{
+	position: absolute !important;
+    top: -810px;
+
+}
+.logo img{
+	width:60px !important;
+}
+
+}
